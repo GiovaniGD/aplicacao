@@ -4,7 +4,7 @@
     font-family: 'Secular One', sans-serif;
 }
 body{
-    background-image: url(../media/cachoeira.webp);
+    background-image: url(cachoeira.webp);
 }
 div{
     background-color: rgb(26, 25, 25);;
@@ -51,7 +51,7 @@ button:hover{
         font-family: 'Secular One', sans-serif;
     }
     body{
-        background-image: url(../media/cachoeira.webp);
+        background-image: url(cachoeira.webp);
     }
     div{
         background-color: rgb(26, 25, 25);
