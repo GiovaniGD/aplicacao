@@ -34,7 +34,7 @@ if (cep != ""){
 
         var script = document.createElement('script');
 
-        script.src = `https://github.com/GiovaniGD/aplicacao/blob/9358f6d62915d2ccff6e750ca6c58b7553711d5f/api.js`;
+        script.src = `https://viacep.com.br/ws/${cep}/json/?callback=meu_callback`;
 
         document.body.appendChild(script);
     }
