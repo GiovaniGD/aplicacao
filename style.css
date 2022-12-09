@@ -4,7 +4,7 @@
     font-family: 'Secular One', sans-serif;
 }
 body{
-    background-image: url(cachoeira.webp);
+    background-image: url(https://github.com/GiovaniGD/aplicacao/blob/4abfccbf673876e7b848c580ee7c0ff64c35d537/cachoeira.webp);
 }
 div{
     background-color: rgb(26, 25, 25);;
@@ -51,7 +51,7 @@ button:hover{
         font-family: 'Secular One', sans-serif;
     }
     body{
-        background-image: url(cachoeira.webp);
+        background-image: url(https://github.com/GiovaniGD/aplicacao/blob/4abfccbf673876e7b848c580ee7c0ff64c35d537/cachoeira.webp);
     }
     div{
         background-color: rgb(26, 25, 25);
