@@ -2,20 +2,27 @@
     <head>
     <title>Aplicação</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
       <form method="get" action=".">
-        <label>Cep:
-        <input name="cep" type="text" id="cep" value="" size="6" maxlength="9"
-               onblur="pesquisarCep(this.value);"></label><br><br>
-        <label>Rua:
-        <input name="rua" type="text" id="rua" size="60"></label><br>
-        <label>Bairro:
-        <input name="bairro" type="text" id="bairro" size="40"></label><br>
-        <label>Cidade:
-        <input name="cidade" type="text" id="cidade" size="40"></label><br>
-        <label>Estado:
-        <input name="estado" type="text" id="uf" size="1"></label><br>
+        <main>
+          <div>
+            <br><br><br>
+            <p class="text">Cep:</p><br>
+            <input name="cep" type="text" id="cep" value="" size="25" maxlength="9"
+                onblur="pesquisarCep(this.value);"><br><br><br><br><br><br><br><br><br>
+            <button type="button" id="button"><p id="pesquisar">Pesquisar</p></button>
+            <p class="text">Rua:</p><br>
+            <input name="rua" type="text" id="rua" size="25"><br><br><br><br><br>
+            <p class="text">Bairro:</p><br>
+            <input name="bairro" type="text" id="bairro" size="24"><br><br><br><br><br>
+            <p class="text">Cidade:</p><br>
+            <input name="cidade" type="text" id="cidade" size="24"><br><br><br><br><br>
+            <p class="text">Estado:</p><br>
+            <input name="estado" type="text" id="uf" size="24"><br><br><br><br><br>
+        </div>
+        </main>
       </form>
     </body>
     <script src="javascript\script.js"></script>
