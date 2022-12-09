@@ -1,0 +1,111 @@
+@media(max-width: 1000px){
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+*{
+    font-family: 'Secular One', sans-serif;
+}
+body{
+    background-image: url(../media/cachoeira.webp);
+}
+div{
+    background-color: rgb(26, 25, 25);;
+    width: 94vw;
+    border-radius: 3vh;
+}
+main{
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+p{
+    float: left;
+    color: rgb(214, 159, 58);
+    font-size: 4vh;
+    margin-top: 0vh;
+    margin-left: 3vw;
+}
+input{
+    width: 90vw;
+    font-size: 5vh;
+    margin-top: -1vh;
+    margin-left: 2vw;
+    border-radius: 1.2vh;
+}
+button{
+    background-color: rgb(61, 83, 224);
+    width: 48vw;
+    height: 5vh;
+    margin-top: -5vh;
+    margin-left: 1.5vw ;
+    border-radius: 1vh;
+}
+button:hover{
+    background-color: rgb(94, 116, 255);
+    width: 48vw;
+    height: 5vh;
+    margin-top: -5vh;
+    margin-left: 1.5vw ;
+    border-radius: 1vh;
+}
+}
+@media(min-width: 1000px){
+    *{
+        font-family: 'Secular One', sans-serif;
+    }
+    body{
+        background-image: url(../media/cachoeira.webp);
+    }
+    div{
+        background-color: rgb(26, 25, 25);
+        width: 60vw;
+        border-radius: 4vh;
+        box-shadow: 0vh 0vh 1vh 0.2vh rgb(0, 0, 0);
+        z-index: 1;
+    }
+    main{
+        margin-left: 18.5vw;
+        margin-top: 2vh;
+    }
+    .text{
+        float: left;
+        color: rgb(214, 159, 58);
+        font-size: 4vh;
+        margin-top: 0vh;
+        margin-left: 7.5vw;
+    }
+    input{
+        font-size: 5vh;
+        margin-top: 4vh;
+        margin-left: 0vw;
+        border-radius: 1.2vh;
+    }
+    button{
+        background-color: rgb(61, 83, 224);
+        width: 16vw;
+        height: 6vh;
+        margin-top: -13vh;
+        margin-left: 11vw ;
+        font-size: 1vh;
+        border-radius: 1vh;
+    }
+    button:hover{
+        background-color: rgb(94, 116, 255);
+        width: 15.5vw;
+        height: 5.5vh;
+        margin-top: -12.8vh;
+        margin-left: 11.3vw ;
+        font-size: 1vh;
+        border-radius: 1vh;
+    }
+    #pesquisar{
+        float: left;
+        margin-top: 0vh;
+        margin-left: 3vw;
+        color: rgb(214, 159, 58);
+        font-size: 4vh;
+    }
+    #cep{
+        margin-left: 1vw;
+    }
+    #rua{
+        margin-left: 1vw;
+    }
+}
