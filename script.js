@@ -18,6 +18,8 @@ else{
 }
 }
 
+let botao = document.querySelector('#button');
+
 function pesquisarCep(valor){
 var cep = valor.replace(/\D/g, '');
 
@@ -45,3 +47,4 @@ else{
     limparInformacoes();
 }
 };
+botao.addEventListener('click', pesquisarCep);
